@@ -8,5 +8,5 @@ CREATE TABLE users (
   description VARCHAR(255) NOT NULL
 );
 
-DROP TABLE IF EXISTS memoirs CASCADE;
+
 

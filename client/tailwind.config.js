@@ -1,7 +1,22 @@
 module.exports = {
-  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  content: ["./src/**/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      screens: {
+        "3xl": "1920px",
+        "4xl": "2880px",
+      },
+      colors: {
+        Copper: "#917171",
+        Sulphate: "#FFE0E0",
+      },
+      fontFamily: {
+        Lato: ["Lato", "sans-serif"],
+      },
+      backgroundImage: {
+        "hero-pattern": "url('/img/hero-pattern.svg')",
+      },
+    },
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/forms")],
 };

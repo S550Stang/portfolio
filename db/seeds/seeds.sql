@@ -5,5 +5,5 @@ USE SINGLE QUOTES FOR VALUES AS THE DATABASE SYNTAX IS QUOTE SENSITIVE
 
 */
 
-INSERT INTO users ("name","email","password") VALUES('prabhu','prabhu123@gmail.com','123'),('abdi','abdi@gmail.com','456'),('mohammed','mohammed@gmail.com','789');
+INSERT INTO users ("name","email","description") VALUES('prabhu','prabhu123@gmail.com','i like your portfolio');
 
