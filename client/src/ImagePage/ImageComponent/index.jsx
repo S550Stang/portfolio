@@ -18,9 +18,9 @@ export default function DisplayPicture() {
         stiffness: 100,
         damping: 20,
       }}
-      className="flex justify-center items-center mt-16"
+      className="flex justify-center items-center mt-10"
     >
-      <img className="w-48 h-48 rounded-lg" src={Me} alt="myProfilePicture" />
+      <img className="w-48 h-48 rounded-3xl" src={Me} alt="myProfilePicture" />
     </motion.div>
   );
 }

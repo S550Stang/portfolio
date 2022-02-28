@@ -1,13 +1,14 @@
 import React from "react";
 import HeaderTitle from "./HomePage/HeaderComponent/HeaderTitle";
 import AboutPage from "./AboutmePage";
-import ImagePage from "./ImagePage";
+
+import VectorGraphicsPage from "./VectorGraphicsPage";
 
 export default function App() {
   return (
     <>
       <HeaderTitle />
-      <ImagePage />
+      <VectorGraphicsPage />
       <AboutPage />
     </>
   );

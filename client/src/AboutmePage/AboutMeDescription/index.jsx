@@ -17,7 +17,7 @@ export default function AboutMeDescription() {
       : animation.start({
           x: "-100vw",
         });
-  }, [inView]);
+  }, [inView, animation]);
   return (
     <motion.div
       ref={ref}

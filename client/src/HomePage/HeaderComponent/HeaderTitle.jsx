@@ -9,7 +9,7 @@ export default function HeaderTitle() {
   const [boolean, setBoolean] = useState(false);
   return (
     <div>
-      <div className="relative flex flex-col justify-center items-center font-Lato gap-y-1 mt-12">
+      <div className="flex flex-col justify-center items-center font-Lato gap-y-1 mt-12">
         <motion.h1
           animate={{
             y: 0,
@@ -17,14 +17,12 @@ export default function HeaderTitle() {
           }}
           initial={{
             y: -20,
-            opacity: 0,
+            opacity: -2,
           }}
           transition={{
-            ease: "easeInOut",
-            duration: 2,
+            ease: "easeIn",
+            duration: 1,
             type: "spring",
-            stiffness: 100,
-            damping: 20,
           }}
           className="text-xl sm:text-2xl text-Copper "
         >
@@ -36,15 +34,13 @@ export default function HeaderTitle() {
             y: 0,
           }}
           initial={{
-            opacity: -1,
+            opacity: -2,
             y: 20,
           }}
           transition={{
-            ease: "easeInOut",
-            duration: 2,
+            ease: "easeIn",
+            duration: 1,
             type: "spring",
-            stiffness: 100,
-            damping: 20,
           }}
           className="text-xs sm:text-sm font-normal text-Sulphate"
         >
