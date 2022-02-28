@@ -136,7 +136,7 @@ export default function HeaderTitle() {
               transform="translate(334.5 14.5)"
               fill="none"
               stroke="#707070"
-              stroke-width="1"
+              strokeWidth="1"
             />
             <line
               id="Line_5"
@@ -145,7 +145,7 @@ export default function HeaderTitle() {
               transform="translate(334.5 20.5)"
               fill="none"
               stroke="#707070"
-              stroke-width="1"
+              strokeWidth="1"
             />
             <line
               id="Line_6"
@@ -154,7 +154,7 @@ export default function HeaderTitle() {
               transform="translate(334.5 26.5)"
               fill="none"
               stroke="#707070"
-              stroke-width="1"
+              strokeWidth="1"
             />
           </g>
         </svg>

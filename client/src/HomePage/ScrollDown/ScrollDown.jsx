@@ -33,8 +33,8 @@ export default function ScrollDown() {
             data-name="Scroll Down"
             transform="translate(343 293) rotate(90)"
             fill="#917171"
-            font-size="20"
-            font-family="AppleSymbols, Apple Symbols"
+            fontSize="20"
+            fontFamily="AppleSymbols, Apple Symbols"
           >
             <tspan x="0" y="0">
               Scroll Down
@@ -47,7 +47,7 @@ export default function ScrollDown() {
             transform="translate(347 385)"
             fill="none"
             stroke="#917171"
-            stroke-width="1"
+            strokeWidth="1"
           />
         </g>
       </svg>
