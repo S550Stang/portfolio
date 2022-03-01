@@ -4,12 +4,18 @@ import Socials from "../Socials/Socials";
 import ScrollDown from "../ScrollDown/ScrollDown";
 import CV from "../../assets/Prabhu.DOCX";
 import HamburgerToggle from "../HamburgerToggle/HamburgerToggle";
+import GlassNavigationPage from "../../GlassNavigationPage";
+import { IoCallSharp } from "react-icons/io5";
+import { FaDownload } from "react-icons/fa";
 
 export default function HeaderTitle() {
   const [boolean, setBoolean] = useState(false);
   return (
     <div>
-      <div className="flex flex-col justify-center items-center font-Lato gap-y-1 mt-12">
+      <div
+        id="Home"
+        className="flex flex-col justify-center items-center font-Lato gap-y-1 sm:gap-y-2 md:gap-y-3 lg:gap-y-4 xl:gap-y-5 2xl:gap-y-6 3xl:gap-y-7 4xl:gap-y-8 mt-12"
+      >
         <motion.h1
           animate={{
             y: 0,
@@ -24,7 +30,7 @@ export default function HeaderTitle() {
             duration: 1,
             type: "spring",
           }}
-          className="text-xl sm:text-2xl text-Copper "
+          className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl 3xl:text-7xl 4xl:text-8xl text-Copper "
         >
           Prabhu Vardhan Pilli
         </motion.h1>
@@ -42,7 +48,7 @@ export default function HeaderTitle() {
             duration: 1,
             type: "spring",
           }}
-          className="text-xs sm:text-sm font-normal text-Sulphate"
+          className="text-xs sm:text-sm md:text-lg lg:text-xl xl:text-xl 2xl:text-2xl 3xl:text-3xl 4xl:text-4xl font-normal text-Sulphate"
         >
           FullStack Developer
         </motion.h4>
@@ -63,10 +69,11 @@ export default function HeaderTitle() {
               stiffness: 100,
               damping: 20,
             }}
-            className="inline-block bg-Copper px-1 w-24 sm:w-28 rounded-full font-light text-sm  mr-2"
+            className="inline-block bg-Copper px-1 rounded-full font-light text-sm md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl 3xl:text-4xl 4xl:text-5xl w-24 sm:w-28 md:w-32 lg:w-36 xl:w-40 2xl:w-44 3xl:w-48 4xl:w-52   mr-2"
           >
-            <a href={CV} download>
-              Download CV
+            <a href={CV} download className="flex justify-evenly items-center">
+              <FaDownload />
+              Resume
             </a>
           </motion.button>
           <motion.button
@@ -85,15 +92,19 @@ export default function HeaderTitle() {
               stiffness: 100,
               damping: 20,
             }}
-            className="inline-block bg-Copper px-1 w-24 sm:w-28 rounded-full font-light text-sm"
+            className="inline-block bg-Copper px-1 rounded-full font-light text-sm md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl 3xl:text-4xl 4xl:text-5xl w-24 sm:w-28 md:w-32 lg:w-36 xl:w-40 2xl:w-44 3xl:w-48 4xl:w-52"
           >
-            <a href="#contact">Lets Talk</a>
+            <a href="#contact" className="flex justify-evenly items-center">
+              <IoCallSharp />
+              Lets Talk
+            </a>
           </motion.button>
         </div>
       </div>
 
       {/* HamBurger Menu*/}
       {boolean ? <HamburgerToggle /> : null}
+      <GlassNavigationPage />
 
       <motion.div
         className="fixed top-2 right-2 cursor-pointer z-50 sm:hidden"

@@ -8,10 +8,10 @@ export default function HamburgerToggle() {
         x: 0,
       }}
       initial={{
-        x: 20,
+        x: 100,
       }}
       transition={{
-        ease: "easeIn",
+        ease: "easeInOut",
         duration: 1,
         type: "spring",
       }}

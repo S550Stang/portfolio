@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 export default function ScrollDown() {
   return (
     <motion.div
-      className="fixed center right-2 top-60"
+      className="fixed w-2 h-6 center right-2 top-60 sm:top-60 sm:w-4 sm:h-20"
       animate={{
         x: 0,
         opacity: 1,
@@ -21,12 +21,7 @@ export default function ScrollDown() {
         damping: 20,
       }}
     >
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="18"
-        height="300"
-        viewBox="0 0 18 340"
-      >
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 340">
         <g id="Group_23" data-name="Group 23" transform="translate(-338 -293)">
           <text
             id="Scroll_Down"

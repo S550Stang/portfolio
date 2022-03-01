@@ -1,0 +1,13 @@
+import React from "react";
+
+export default function SkillsHeaderTitleComponent() {
+  return (
+    <div
+      id="Skills"
+      className="flex flex-col justify-center items-center font-Lato mt-10"
+    >
+      <h1 className="text-Copper text-sm sm:text-lg">My</h1>
+      <h4 className="text-xs sm:text-sm font-normal text-Sulphate">Skills</h4>
+    </div>
+  );
+}

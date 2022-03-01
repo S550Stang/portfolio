@@ -9,7 +9,7 @@ import {
 export default function Socials() {
   return (
     <motion.div
-      className="flex flex-col justify-between items-center gap-3 text-Sulphate fixed left-2 top-60 cursor-pointer "
+      className="flex flex-col justify-between items-center gap-3 text-Sulphate fixed left-2 top-60 cursor-pointer sm:gap-1 sm:top-52 "
       animate={{
         x: 0,
         opacity: 1,
@@ -27,13 +27,13 @@ export default function Socials() {
       }}
     >
       <a href="https://www.instagram.com/prabhu.vardhan.pilli/">
-        <AiOutlineInstagram className="cursor-pointer" />
+        <AiOutlineInstagram className="cursor-pointer sm:w-6 sm:h-10" />
       </a>
       <a href="https://github.com/S550Stang">
-        <AiOutlineGithub className="cursor-pointer" />
+        <AiOutlineGithub className="cursor-pointer sm:w-6 sm:h-10" />
       </a>
       <a href="https://www.linkedin.com/in/prabhuvardhanraopilli/">
-        <AiOutlineLinkedin className="cursor-pointer" />
+        <AiOutlineLinkedin className="cursor-pointer sm:w-6 sm:h-10" />
       </a>
     </motion.div>
   );
