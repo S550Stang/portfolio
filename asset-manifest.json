@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.e794e2e5.css",
+    "main.js": "/portfolio/static/js/main.eb1ff477.js",
+    "static/media/ME.jpg": "/portfolio/static/media/ME.d4d32ee1ab43eda2ffaf.jpg",
+    "static/media/Prabhu.DOCX": "/portfolio/static/media/Prabhu.9f8b5499526b40288fc2.DOCX",
+    "index.html": "/portfolio/index.html",
+    "main.e794e2e5.css.map": "/portfolio/static/css/main.e794e2e5.css.map",
+    "main.eb1ff477.js.map": "/portfolio/static/js/main.eb1ff477.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e794e2e5.css",
+    "static/js/main.eb1ff477.js"
+  ]
+}
