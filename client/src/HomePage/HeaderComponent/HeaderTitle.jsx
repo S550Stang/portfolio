@@ -30,7 +30,7 @@ export default function HeaderTitle() {
             duration: 1,
             type: "spring",
           }}
-          className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl 3xl:text-7xl 4xl:text-8xl text-Copper "
+          className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl 3xl:text-7xl 4xl:text-8xl text-[#61892f] "
         >
           Prabhu Vardhan Pilli
         </motion.h1>
@@ -48,7 +48,7 @@ export default function HeaderTitle() {
             duration: 1,
             type: "spring",
           }}
-          className="text-xs sm:text-sm md:text-lg lg:text-xl xl:text-xl 2xl:text-2xl 3xl:text-3xl 4xl:text-4xl font-normal text-Sulphate"
+          className="text-xs sm:text-sm md:text-lg lg:text-xl xl:text-xl 2xl:text-2xl 3xl:text-3xl 4xl:text-4xl font-normal text-white"
         >
           FullStack Developer
         </motion.h4>
@@ -69,9 +69,13 @@ export default function HeaderTitle() {
               stiffness: 100,
               damping: 20,
             }}
-            className="inline-block bg-Copper px-1 rounded-full font-light text-sm md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl 3xl:text-4xl 4xl:text-5xl w-24 sm:w-28 md:w-32 lg:w-36 xl:w-40 2xl:w-44 3xl:w-48 4xl:w-52   mr-2"
+            className="inline-block bg-[#86c232] text-slate-900 px-1 rounded-full font-light text-sm md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl 3xl:text-4xl 4xl:text-5xl w-24 sm:w-28 md:w-32 lg:w-36 xl:w-40 2xl:w-44 3xl:w-48 3xl:p-1 4xl:w-52   mr-2"
           >
-            <a href={CV} download className="flex justify-evenly items-center">
+            <a
+              href={CV}
+              download
+              className="flex justify-evenly items-center 3xl:p-1"
+            >
               <FaDownload />
               Resume
             </a>
@@ -92,9 +96,12 @@ export default function HeaderTitle() {
               stiffness: 100,
               damping: 20,
             }}
-            className="inline-block bg-Copper px-1 rounded-full font-light text-sm md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl 3xl:text-4xl 4xl:text-5xl w-24 sm:w-28 md:w-32 lg:w-36 xl:w-40 2xl:w-44 3xl:w-48 4xl:w-52"
+            className="inline-block bg-[#86c232] text-slate-900 px-1 rounded-full font-light text-sm md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl 3xl:text-4xl 4xl:text-5xl w-24 sm:w-28 md:w-32 lg:w-36 xl:w-40 2xl:w-44 3xl:w-48 3xl:p-1 4xl:w-52"
           >
-            <a href="#contact" className="flex justify-evenly items-center">
+            <a
+              href="#contact"
+              className="flex justify-evenly items-center 3xl:p-1"
+            >
               <IoCallSharp />
               Lets Talk
             </a>
@@ -142,7 +149,7 @@ export default function HeaderTitle() {
               x2="30"
               transform="translate(334.5 14.5)"
               fill="none"
-              stroke="#707070"
+              stroke="white"
               strokeWidth="1"
             />
             <line
@@ -151,7 +158,7 @@ export default function HeaderTitle() {
               x2="30"
               transform="translate(334.5 20.5)"
               fill="none"
-              stroke="#707070"
+              stroke="#86c232"
               strokeWidth="1"
             />
             <line
@@ -160,7 +167,7 @@ export default function HeaderTitle() {
               x2="30"
               transform="translate(334.5 26.5)"
               fill="none"
-              stroke="#707070"
+              stroke="white"
               strokeWidth="1"
             />
           </g>

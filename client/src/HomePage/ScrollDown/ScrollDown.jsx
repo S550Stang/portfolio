@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 export default function ScrollDown() {
   return (
     <motion.div
-      className="fixed w-2 h-6 center right-2 top-60 sm:top-60 sm:w-4 sm:h-20"
+      className="fixed w-2 h-6 center right-2 top-1/3 sm:top-60 sm:w-4 sm:h-20"
       animate={{
         x: 0,
         opacity: 1,
@@ -27,7 +27,7 @@ export default function ScrollDown() {
             id="Scroll_Down"
             data-name="Scroll Down"
             transform="translate(343 293) rotate(90)"
-            fill="#917171"
+            fill="white"
             fontSize="20"
             fontFamily="AppleSymbols, Apple Symbols"
           >
@@ -41,7 +41,7 @@ export default function ScrollDown() {
             y2="248"
             transform="translate(347 385)"
             fill="none"
-            stroke="#917171"
+            stroke="white"
             strokeWidth="1"
           />
         </g>
