@@ -21,7 +21,7 @@ export default function DisplayPicture() {
       className="flex justify-center items-center mt-10"
     >
       <img
-        className="w-48 h-48 sm:w-56 sm:h-56 rounded-3xl"
+        className=" w-52 h-52 sm:w-56 sm:h-56 rounded-3xl"
         src={Me}
         alt="myProfilePicture"
       />

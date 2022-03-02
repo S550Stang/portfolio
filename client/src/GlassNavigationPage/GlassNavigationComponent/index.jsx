@@ -21,21 +21,21 @@ export default function GlassNavigationComponent() {
         duration: 2,
         bounce: 0.3,
       }}
-      className="flex justify-evenly items-center sm:fixed sm:w-96 sm:z-50 sm:bottom-0 sm:mx-auto sm:left-0 sm:right-0  sm:h-14  sm:rounded-lg sm:bg-gradient-to-br sm:from-Copper sm:to-transparent  sm:bg-opacity-20 sm:backdrop-blur-sm"
+      className="flex justify-evenly items-center sm:fixed sm:w-96 sm:z-50 sm:bottom-2 sm:mx-auto sm:left-0 sm:right-0  sm:h-14  sm:rounded-lg sm:bg-gradient-to-br sm:from-[#86c232] sm:to-transparent  sm:bg-opacity-20 sm:backdrop-blur-sm "
     >
       <a href="#Home">
-        <AiFillHome className="invisible sm:visible sm:hover:text-Sulphate" />
+        <AiFillHome className="invisible sm:visible sm:hover:text-white hover:cursor-pointer" />
       </a>
 
       <a href="#AboutMe">
-        <CgProfile className="invisible sm:visible sm:hover:text-Sulphate" />
+        <CgProfile className="hover:cursor-pointer invisible sm:visible sm:hover:text-white" />
       </a>
 
       <a href="#Skills">
-        <FaBook className="invisible sm:visible sm:hover:text-Sulphate" />
+        <FaBook className="hover:cursor-pointer invisible sm:visible sm:hover:text-white" />
       </a>
-      <GiHeartBattery className="invisible sm:visible sm:hover:text-Sulphate" />
-      <RiMessage2Fill className="invisible sm:visible sm:hover:text-Sulphate" />
+      <GiHeartBattery className="hover:cursor-pointer invisible sm:visible sm:hover:text-white" />
+      <RiMessage2Fill className="hover:cursor-pointer invisible sm:visible sm:hover:text-white" />
     </motion.div>
   );
 }
