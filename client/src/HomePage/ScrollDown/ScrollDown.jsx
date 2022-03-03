@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 export default function ScrollDown() {
   return (
     <motion.div
-      className="fixed text-2xl w-4 h-6 center right-1 top-1/3 sm:top-60 sm:w-4 sm:h-20"
+      className="fixed text-lg w-3 center right-1 top-64 sm:top-60 sm:w-4 sm:h-20"
       animate={{
         x: 0,
         opacity: 1,
