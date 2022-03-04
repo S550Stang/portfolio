@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 export default function VectorGraphics() {
   return (
-    <div className="relative w-screen h-80 -z-50">
+    <div className="relative w-screen h-80 -z-50 mt-24">
       {/** Right Side Vector Graphic */}
       <motion.div
         animate={{
@@ -20,7 +20,7 @@ export default function VectorGraphics() {
           type: "spring",
           bounce: 0.3,
         }}
-        className="absolute right-0 w-20 3xl:right-40 3xl:w-44 "
+        className="absolute right-0 w-24 3xl:right-40 3xl:w-44 "
       >
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 351 350">
           <defs>
@@ -92,7 +92,7 @@ export default function VectorGraphics() {
           type: "spring",
           bounce: 0.3,
         }}
-        className="absolute w-20 -z-50 left-0 bottom-1 3xl:left-40 3xl:w-44"
+        className="absolute w-24 -z-50 left-0 bottom-1 3xl:left-40 3xl:w-44"
       >
         <svg
           id="Group_58"

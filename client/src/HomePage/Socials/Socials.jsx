@@ -9,7 +9,7 @@ import {
 export default function Socials() {
   return (
     <motion.div
-      className="flex flex-col justify-between items-center gap-3 text-white  fixed left-1 top-60 cursor-pointer text-xl sm:gap-1 sm:top-52 3xl:top-72 3xl:gap-12 3xl:left-16 "
+      className="flex flex-col justify-between items-center gap-3 text-white  fixed left-2 top-72 cursor-pointer text-xl sm:gap-1 sm:top-52 3xl:top-72 3xl:gap-12 3xl:left-16 "
       animate={{
         x: 0,
         opacity: 1,
