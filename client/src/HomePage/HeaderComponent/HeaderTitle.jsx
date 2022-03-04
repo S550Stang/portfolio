@@ -30,7 +30,7 @@ export default function HeaderTitle() {
             duration: 1,
             type: "spring",
           }}
-          className="text-2xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl 3xl:text-7xl 4xl:text-8xl text-[#61892f] "
+          className="text-2xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl 3xl:text-7xl 4xl:text-8xl text-[#66FCF1] "
         >
           Prabhu Vardhan Pilli
         </motion.h1>
@@ -69,7 +69,7 @@ export default function HeaderTitle() {
               stiffness: 100,
               damping: 20,
             }}
-            className="inline-block bg-[#86c232] text-slate-900 px-1 rounded-full font-light text-lg md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl 3xl:text-4xl 4xl:text-5xl w-28 sm:w-28 md:w-32 lg:w-36 xl:w-40 2xl:w-44 3xl:w-48 3xl:p-1 4xl:w-52   mr-2"
+            className="inline-block bg-[#04060F] text-[#66FCF1] px-1 rounded-lg font-light border border-[#66FCF1] text-lg md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl 3xl:text-4xl 4xl:text-5xl w-28 sm:w-28 md:w-32 lg:w-36 xl:w-40 2xl:w-44 3xl:w-48 3xl:p-1 4xl:w-52   mr-2"
           >
             <a
               href={CV}
@@ -96,7 +96,7 @@ export default function HeaderTitle() {
               stiffness: 100,
               damping: 20,
             }}
-            className="inline-block bg-[#86c232] text-slate-900 px-1 rounded-full font-light text-lg md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl 3xl:text-4xl 4xl:text-5xl w-28 sm:w-28 md:w-32 lg:w-36 xl:w-40 2xl:w-44 3xl:w-48 3xl:p-1 4xl:w-52"
+            className="inline-block bg-[#04060F] text-[#66FCF1] px-1 rounded-lg font-light border border-[#66FCF1] text-lg md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl 3xl:text-4xl 4xl:text-5xl w-28 sm:w-28 md:w-32 lg:w-36 xl:w-40 2xl:w-44 3xl:w-48 3xl:p-1 4xl:w-52"
           >
             <a
               href="#contact"
