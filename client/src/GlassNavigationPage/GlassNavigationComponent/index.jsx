@@ -21,7 +21,7 @@ export default function GlassNavigationComponent() {
         duration: 2,
         bounce: 0.3,
       }}
-      className="flex justify-evenly items-center sm:fixed sm:w-96 sm:z-50 sm:bottom-2 sm:mx-auto sm:left-0 sm:right-0  sm:h-14  sm:rounded-lg sm:bg-gradient-to-br sm:from-[#25AF9A] sm:via-[#2D4B9A] sm:to-transparent  sm:bg-opacity-20 sm:backdrop-blur-sm "
+      className="flex justify-evenly items-center sm:fixed sm:w-96 sm:z-50 sm:bottom-2 sm:mx-auto sm:left-0 sm:right-0  sm:h-14  sm:rounded-lg sm:bg-gradient-to-r sm:from-[#25AF9A]   sm:to-[#2D4B9A] sm:bg-opacity-4 sm:backdrop-blur-lg "
     >
       <a href="#Home">
         <AiFillHome className="invisible sm:visible sm:hover:text-white hover:cursor-pointer" />

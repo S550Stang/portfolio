@@ -7,7 +7,7 @@ const icon = {
     pathLength: 0,
   },
   visible: {
-    opacity: 1,
+    opacity: 5,
     pathLength: 1,
   },
 };
@@ -31,8 +31,8 @@ export default function LineVectorGraphicsComponent() {
           d="M-129.736,585.643h1016.7v709.691H2560.994V178.037H1455.7V1044.2H725.717V292.072H304.975V-100.093H1736.413V1509.527h824.58"
           transform="translate(129.736 100.593)"
           fill="none"
-          stroke="#66fcf1"
-          stroke-width="3"
+          stroke="#66FCF1"
+          stroke-width="0.20"
         />
       </motion.svg>
     </motion.div>

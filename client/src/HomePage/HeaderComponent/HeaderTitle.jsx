@@ -14,7 +14,7 @@ export default function HeaderTitle() {
     <div>
       <div
         id="Home"
-        className="flex flex-col justify-center items-center font-Lato gap-y-1 sm:gap-y-2 md:gap-y-3 lg:gap-y-4 xl:gap-y-5 2xl:gap-y-6 3xl:gap-y-7 4xl:gap-y-8 mt-12"
+        className="flex flex-col justify-center items-center font-Lato gap-y-1 sm:gap-y-2 md:gap-y-3 lg:gap-y-4 xl:gap-y-5 2xl:gap-y-6 3xl:gap-y-7 4xl:gap-y-8 mt-12 3xl:mt-24"
       >
         <motion.h1
           animate={{
@@ -30,7 +30,7 @@ export default function HeaderTitle() {
             duration: 1,
             type: "spring",
           }}
-          className="text-2xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl 3xl:text-7xl 4xl:text-8xl text-[#66FCF1] "
+          className="text-2xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl 3xl:text-5xl  4xl:text-8xl text-[#66FCF1] 3xl:font-normal"
         >
           Prabhu Vardhan Pilli
         </motion.h1>
@@ -48,7 +48,7 @@ export default function HeaderTitle() {
             duration: 1,
             type: "spring",
           }}
-          className="text-md sm:text-sm md:text-lg lg:text-xl xl:text-xl 2xl:text-2xl 3xl:text-3xl 4xl:text-4xl font-normal text-white"
+          className="text-md sm:text-sm md:text-lg lg:text-xl xl:text-xl 2xl:text-2xl 3xl:text-2xl 4xl:text-4xl font-normal 3xl:font-light text-white"
         >
           FullStack Developer
         </motion.h4>
@@ -69,14 +69,13 @@ export default function HeaderTitle() {
               stiffness: 100,
               damping: 20,
             }}
-            className="inline-block bg-[#04060F] text-[#66FCF1] px-1 rounded-lg font-light border border-[#66FCF1] text-lg md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl 3xl:text-4xl 4xl:text-5xl w-28 sm:w-28 md:w-32 lg:w-36 xl:w-40 2xl:w-44 3xl:w-48 3xl:p-1 4xl:w-52   mr-2"
+            className="inline-block bg-[#04060F] text-[#66FCF1] px-1 rounded-lg font-light border border-[#66FCF1] text-lg md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl 3xl:text-4xl 4xl:text-5xl w-28 sm:w-28 md:w-32 lg:w-36 xl:w-40 2xl:w-44 3xl:w-48 3xl:p-1 4xl:w-52   mr-2 3xl:mr-6"
           >
             <a
               href={CV}
               download
-              className="flex justify-evenly items-center 3xl:p-1"
+              className="flex justify-evenly items-center 3xl:text-xl"
             >
-              <FaDownload />
               Resume
             </a>
           </motion.button>
@@ -100,9 +99,8 @@ export default function HeaderTitle() {
           >
             <a
               href="#contact"
-              className="flex justify-evenly items-center 3xl:p-1"
+              className="flex justify-evenly items-center 3xl:text-xl"
             >
-              <IoCallSharp />
               Lets Talk
             </a>
           </motion.button>
