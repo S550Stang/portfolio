@@ -9,7 +9,7 @@ export default function FrontEndSkillComponent() {
           Front-End Development
         </p>
       </div>
-      <div className=" w-56 h-52 sm:w-64 sm:h-56 rounded-3xl flex justify-center items-center font-Lato bg-[#6b6e70] mt-10 mb-10 ">
+      <div className=" w-56 h-52 sm:w-64 sm:h-56 rounded-3xl flex justify-center items-center font-Lato hover:bg-gradient-to-tl hover:from-[#25AF9A] hover:via-[#2D4B9A] hover:to-transparent hover:bg-opacity-4 hover:backdrop-blur-lg bg-[#04060f] border border-[#25AF9A] hover:border-0 mt-10 mb-10 ">
         <div className="  flex flex-col justify-start items-start gap-5 text-white">
           <p className=" flex items-center gap-1 mt-0 font-light text-sm">
             <TiTick className="text-[#86c232]" />

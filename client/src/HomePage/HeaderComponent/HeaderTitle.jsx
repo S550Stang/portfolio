@@ -68,7 +68,7 @@ export default function HeaderTitle() {
               damping: 20,
             }}
             className="inline-block bg-[#04060F] hover:bg-gradient-to-r hover:from-[#25AF9A]   hover:to-[#2D4B9A] hover:bg-opacity-4 hover:backdrop-blur-lg hover:bg-[#25AF9A]
-             text-[#66FCF1] hover:text-black px-1 rounded-lg font-light border border-[#66FCF1] text-lg md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl 3xl:text-4xl 4xl:text-5xl w-28 sm:w-28 md:w-32 lg:w-36 xl:w-40 2xl:w-44 3xl:w-48 3xl:p-1 4xl:w-52   mr-2 3xl:mr-6"
+             text-[#66FCF1] hover:text-black px-1 rounded-full font-light border border-[#66FCF1] text-lg md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl 3xl:text-4xl 4xl:text-5xl w-28 sm:w-28 md:w-32 lg:w-36 xl:w-40 2xl:w-44 3xl:w-48 3xl:p-1 4xl:w-52   mr-2 3xl:mr-6"
           >
             <a
               href={CV}
@@ -95,7 +95,7 @@ export default function HeaderTitle() {
               damping: 20,
             }}
             className="inline-block bg-[#04060F] hover:bg-gradient-to-r hover:from-[#25AF9A]   hover:to-[#2D4B9A] hover:bg-opacity-4 hover:backdrop-blur-lg hover:bg-[#25AF9A]
-            text-[#66FCF1] hover:text-black px-1 rounded-lg font-light border border-[#66FCF1] text-lg md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl 3xl:text-4xl 4xl:text-5xl w-28 sm:w-28 md:w-32 lg:w-36 xl:w-40 2xl:w-44 3xl:w-48 3xl:p-1 4xl:w-52"
+            text-[#66FCF1] hover:text-black px-1 rounded-full font-light border border-[#66FCF1] text-lg md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl 3xl:text-4xl 4xl:text-5xl w-28 sm:w-28 md:w-32 lg:w-36 xl:w-40 2xl:w-44 3xl:w-48 3xl:p-1 4xl:w-52"
           >
             <a
               href="#contact"
