@@ -18,10 +18,10 @@ export default function DisplayPicture() {
         stiffness: 100,
         damping: 20,
       }}
-      className="flex justify-center items-center mt-10"
+      className=" md:p-5 xl:p-10 2xl:p-20 "
     >
       <img
-        className=" w-52 h-52 sm:w-56 sm:h-56 rounded-3xl"
+        className=" w-52 h-52 sm:w-56 sm:h-56 lg:w-72 lg:h-72 xl:w-96 xl:h-96 2xl:w-full rounded-3xl"
         src={Me}
         alt="myProfilePicture"
       />

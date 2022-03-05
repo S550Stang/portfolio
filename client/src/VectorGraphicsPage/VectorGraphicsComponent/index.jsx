@@ -40,8 +40,8 @@ export default function VectorGraphics() {
               y2="1"
               gradientUnits="objectBoundingBox"
             >
-              <stop offset="0" stop-color="#25af9a" />
-              <stop offset="1" stop-color="#2d4b9a" />
+              <stop offset="0" stopColor="#25af9a" />
+              <stop offset="1" stopColor="#2d4b9a" />
             </linearGradient>
           </defs>
           <g id="Group_57" data-name="Group 57" transform="translate(45)">
@@ -60,7 +60,7 @@ export default function VectorGraphics() {
               data-name="Rectangle 1"
               transform="translate(-45)"
               stroke="rgba(34,38,41,0)"
-              stroke-width="1"
+              strokeWidth="1"
               fill="url(#linear-gradient)"
             >
               <rect width="281" height="277" stroke="none" />
@@ -119,8 +119,8 @@ export default function VectorGraphics() {
               x2="0.5"
               gradientUnits="objectBoundingBox"
             >
-              <stop offset="0" stop-color="#25af9a" />
-              <stop offset="1" stop-color="#2d4b9a" />
+              <stop offset="0" stopColor="#25af9a" />
+              <stop offset="1" stopColor="#2d4b9a" />
             </linearGradient>
           </defs>
           <ellipse
@@ -137,7 +137,7 @@ export default function VectorGraphics() {
             data-name="Rectangle 1"
             transform="translate(70 73)"
             stroke="rgba(34,38,41,0)"
-            stroke-width="1"
+            strokeWidth="1"
             fill="url(#linear-gradient)"
           >
             <rect width="281" height="277" stroke="none" />

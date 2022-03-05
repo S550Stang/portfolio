@@ -32,7 +32,7 @@ export default function LineVectorGraphicsComponent() {
           transform="translate(129.736 100.593)"
           fill="none"
           stroke="#66FCF1"
-          stroke-width="0.50"
+          strokeWidth="0.50"
         />
       </motion.svg>
     </motion.div>

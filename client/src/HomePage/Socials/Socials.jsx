@@ -11,8 +11,8 @@ import SoundBarPage from "../../SoundBarPage";
 export default function Socials() {
   return (
     <motion.div
-      className="flex flex-col justify-between items-center gap-3
-      fixed left-2 top-64
+      className="flex flex-col items-center gap-3
+      fixed  left-2 
       md:left-6 xl:left-8"
       animate={{
         x: 0,
