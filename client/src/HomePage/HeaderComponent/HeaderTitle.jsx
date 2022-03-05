@@ -28,7 +28,7 @@ export default function HeaderTitle() {
             duration: 1,
             type: "spring",
           }}
-          className="text-2xl sm:text-3xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl 3xl:text-5xl  4xl:text-8xl text-[#66FCF1] 3xl:font-normal"
+          className="text-2xl sm:text-3xl md:text-3xl lg:text-4xl xl:text-4xl 2xl:text-5xl 3xl:text-5xl 4xl:text-6xl text-[#66FCF1] 3xl:font-normal"
         >
           Prabhu Vardhan Pilli
         </motion.h1>
@@ -73,7 +73,7 @@ export default function HeaderTitle() {
             <a
               href={CV}
               download
-              className="flex justify-evenly items-center 3xl:text-xl"
+              className="flex justify-evenly items-center 2xl:text-xl 3xl:text-xl"
             >
               Resume
             </a>
@@ -99,7 +99,7 @@ export default function HeaderTitle() {
           >
             <a
               href="#contact"
-              className="flex justify-evenly items-center 3xl:text-xl"
+              className="flex justify-evenly items-center 2xl:text-xl 3xl:text-xl"
             >
               Lets Talk
             </a>

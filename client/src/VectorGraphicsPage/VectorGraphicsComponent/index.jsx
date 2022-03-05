@@ -20,7 +20,7 @@ export default function VectorGraphics() {
           type: "spring",
           bounce: 0.3,
         }}
-        className="absolute right-0 w-24 sm:w-32 md:w-36 lg:w-40 xl:w-44 2xl:w-48 3xl:right-40 3xl:w-44 4xl:right-48 4xl:w-48 "
+        className="absolute right-0 w-24 sm:w-32 md:w-36 lg:w-40 xl:w-44 2xl:w-44 2xl:right-40 3xl:right-40 3xl:w-44 4xl:right-40 4xl:w-44 "
       >
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 351 350">
           <defs>
@@ -92,7 +92,7 @@ export default function VectorGraphics() {
           type: "spring",
           bounce: 0.3,
         }}
-        className="absolute w-24 sm:w-32 md:w-36 lg:w-40 xl:w-44 2xl:w-48 -z-50 left-0 bottom-1 3xl:left-40 3xl:w-44 4xl:w-52"
+        className="absolute w-24 sm:w-32 md:w-36 lg:w-40 xl:w-44 2xl:w-44 2xl:left-40 -z-50 left-0 bottom-1 3xl:left-40 3xl:w-44 4xl:w-52"
       >
         <svg
           id="Group_58"
