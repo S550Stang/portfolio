@@ -6,10 +6,14 @@ import {
   AiOutlineLinkedin,
 } from "react-icons/ai";
 
+import SoundBarPage from "../../SoundBarPage";
+
 export default function Socials() {
   return (
     <motion.div
-      className="flex flex-col justify-between items-center gap-3 text-white  fixed left-2 sm:left-3 md:left-4 lg:left-5 xl:left-6 top-72 cursor-pointer text-xl sm:gap-1 sm:top-60 3xl:top-72 3xl:gap-12 3xl:left-16 "
+      className="flex flex-col justify-between items-center gap-3
+      fixed left-2 top-64
+      md:left-6 xl:left-8"
       animate={{
         x: 0,
         opacity: 1,
@@ -26,14 +30,15 @@ export default function Socials() {
         damping: 20,
       }}
     >
+      <SoundBarPage />
       <a href="https://www.instagram.com/prabhu.vardhan.pilli/">
-        <AiOutlineInstagram className="cursor-pointer sm:w-6 sm:h-10 3xl:w-7 3xl:h-7  hover:text-[#86c232]" />
+        <AiOutlineInstagram className="mt-3 cursor-pointer text-white  hover:text-[#86c232] text-xl md:text-2xl" />
       </a>
       <a href="https://github.com/S550Stang">
-        <AiOutlineGithub className="cursor-pointer sm:w-6 sm:h-10 3xl:w-7 3xl:h-7 hover:text-[#86c232]" />
+        <AiOutlineGithub className="cursor-pointer text-white hover:text-[#86c232] text-xl md:text-2xl" />
       </a>
       <a href="https://www.linkedin.com/in/prabhuvardhanraopilli/">
-        <AiOutlineLinkedin className="cursor-pointer sm:w-6 sm:h-10 3xl:w-7 3xl:h-7 hover:text-[#86c232]" />
+        <AiOutlineLinkedin className="cursor-pointer text-white hover:text-[#86c232] text-xl md:text-2xl" />
       </a>
     </motion.div>
   );

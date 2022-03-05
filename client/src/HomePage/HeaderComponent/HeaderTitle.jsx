@@ -12,7 +12,7 @@ export default function HeaderTitle() {
     <div>
       <div
         id="Home"
-        className="flex flex-col justify-center items-center font-Lato gap-y-1 sm:gap-y-2 md:gap-y-3 lg:gap-y-4 xl:gap-y-5 2xl:gap-y-6 3xl:gap-y-7 4xl:gap-y-8 mt-12 3xl:mt-24"
+        className="flex flex-col justify-center items-center font-Lato gap-y-1 lg:gap-y-2 2xl:gap-y-3 mt-10 sm:mt-16 md:mt-20 2xl:mt-24 "
       >
         <motion.h1
           animate={{
@@ -28,7 +28,7 @@ export default function HeaderTitle() {
             duration: 1,
             type: "spring",
           }}
-          className="text-2xl sm:text-3xl md:text-3xl lg:text-4xl xl:text-4xl 2xl:text-5xl 3xl:text-5xl 4xl:text-6xl text-[#66FCF1] 3xl:font-normal"
+          className="text-[#66FCF1] text-2xl sm:text-3xl md:text-4xl lg:text-5xl 2xl:text-6xl "
         >
           Prabhu Vardhan Pilli
         </motion.h1>
@@ -46,7 +46,7 @@ export default function HeaderTitle() {
             duration: 1,
             type: "spring",
           }}
-          className="text-md sm:text-lg md:text-xl lg:text-xl xl:text-xl 2xl:text-2xl 3xl:text-2xl 4xl:text-4xl font-normal 3xl:font-light text-white"
+          className="text-white font-light text-md sm:text-lg md:text-xl lg:text-2xl 2xl:text-3xl"
         >
           FullStack Developer
         </motion.h4>
@@ -67,13 +67,13 @@ export default function HeaderTitle() {
               stiffness: 100,
               damping: 20,
             }}
-            className="inline-block bg-[#04060F] hover:bg-gradient-to-r hover:from-[#25AF9A]   hover:to-[#2D4B9A] hover:bg-opacity-4 hover:backdrop-blur-lg hover:bg-[#25AF9A]
-             text-[#66FCF1] hover:text-black px-1 rounded-full font-light border border-[#66FCF1] text-lg md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl 3xl:text-4xl 4xl:text-5xl w-28 sm:w-28 md:w-32 lg:w-36 xl:w-40 2xl:w-44 3xl:w-48 3xl:p-1 4xl:w-52   mr-2 3xl:mr-6"
+            className="inline-block bg-[#04060F] rounded-full font-light border
+            w-28 sm:w-32 2xl:w-40 mr-2 hover:bg-gradient-to-r hover:from-[#25AF9A] hover:to-[#2D4B9A] hover:bg-opacity-4 hover:backdrop-blur-lg hover:bg-[#25AF9A] text-[#66FCF1] hover:text-black border-[#66FCF1] "
           >
             <a
               href={CV}
               download
-              className="flex justify-evenly items-center 2xl:text-xl 3xl:text-xl"
+              className="flex justify-evenly items-center text-lg sm:text-xl p-1"
             >
               Resume
             </a>
@@ -94,12 +94,13 @@ export default function HeaderTitle() {
               stiffness: 100,
               damping: 20,
             }}
-            className="inline-block bg-[#04060F] hover:bg-gradient-to-r hover:from-[#25AF9A]   hover:to-[#2D4B9A] hover:bg-opacity-4 hover:backdrop-blur-lg hover:bg-[#25AF9A]
-            text-[#66FCF1] hover:text-black px-1 rounded-full font-light border border-[#66FCF1] text-lg md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl 3xl:text-4xl 4xl:text-5xl w-28 sm:w-28 md:w-32 lg:w-36 xl:w-40 2xl:w-44 3xl:w-48 3xl:p-1 4xl:w-52"
+            className="inline-block bg-[#04060F]  rounded-full font-light border
+             w-28 sm:w-32 2xl:w-40 text-[#66FCF1] hover:bg-gradient-to-r hover:from-[#25AF9A] hover:to-[#2D4B9A] hover:bg-opacity-4 hover:backdrop-blur-lg hover:bg-[#25AF9A]
+             hover:text-black  border-[#66FCF1] "
           >
             <a
               href="#contact"
-              className="flex justify-evenly items-center 2xl:text-xl 3xl:text-xl"
+              className="flex justify-evenly items-center p-1 text-lg sm:text-xl "
             >
               Lets Talk
             </a>

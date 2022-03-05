@@ -3,7 +3,13 @@ import { motion } from "framer-motion";
 
 export default function VectorGraphics() {
   return (
-    <div className="relative w-screen h-80 -z-50 mt-24 sm:mt-12 md:mt-12 lg:mt-10 xl:mt-7">
+    <div
+      className="relative w-screen h-80 -z-40 mt-20 mb-20
+      sm:mt-16 sm:mb-24 
+      md:mt-12 md:mb-28
+      lg:mt-10 lg:mb-32
+      xl:mt-7 xl:mb-36"
+    >
       {/** Right Side Vector Graphic */}
       <motion.div
         animate={{
@@ -20,7 +26,10 @@ export default function VectorGraphics() {
           type: "spring",
           bounce: 0.3,
         }}
-        className="absolute right-0 w-24 sm:w-32 md:w-36 lg:w-40 xl:w-44 2xl:w-44 2xl:right-40 3xl:right-40 3xl:w-44 4xl:right-40 4xl:w-44 "
+        className="absolute right-0 w-24 
+        sm:right-3 md:right-5 lg:right-10 xl:right-14 2xl:right-20 
+        sm:w-32 md:w-36 lg:w-40 xl:w-44 2xl:w-48
+        "
       >
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 351 350">
           <defs>
@@ -92,7 +101,9 @@ export default function VectorGraphics() {
           type: "spring",
           bounce: 0.3,
         }}
-        className="absolute w-24 sm:w-32 md:w-36 lg:w-40 xl:w-44   -z-50 left-0 bottom-1 2xl:absolute 2xl:left-40 2xl:w-44 3xl:absolute 3xl:left-40 3xl:w-44 4xl:w-52"
+        className="absolute left-0 bottom-1 -z-50 w-24 
+        sm:left-3 md:left-5 lg:left-10 xl:left-14 2xl:left-20
+        sm:w-32 md:w-36 lg:w-40 xl:w-44 2xl:w-48"
       >
         <svg
           id="Group_58"
