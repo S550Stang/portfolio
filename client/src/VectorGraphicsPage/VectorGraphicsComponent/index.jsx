@@ -92,7 +92,7 @@ export default function VectorGraphics() {
           type: "spring",
           bounce: 0.3,
         }}
-        className="absolute w-24 sm:w-32 md:w-36 lg:w-40 xl:w-44 2xl:w-44 2xl:left-40 -z-50 left-0 bottom-1 3xl:left-40 3xl:w-44 4xl:w-52"
+        className="absolute w-24 sm:w-32 md:w-36 lg:w-40 xl:w-44   -z-50 left-0 bottom-1 2xl:absolute 2xl:left-40 2xl:w-44 3xl:absolute 3xl:left-40 3xl:w-44 4xl:w-52"
       >
         <svg
           id="Group_58"
