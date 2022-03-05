@@ -33,7 +33,7 @@ export default function AboutMeDescription() {
       className="flex flex-col md:flex-row  md:items-center justify-center items-center mt-10 font-Lato w-screen"
     >
       <ImagePage />
-      <div className="flex flex-col justify-center items-center md:flex-col  md:justify-center md:items-start lg:p-5 2xl:p-10 2xl:mr-10  lg:mt-10 2xl:mt-0  font-Lato">
+      <div className="flex flex-col justify-center items-center md:flex-col  md:justify-center md:items-start lg:p-5 2xl:p-10 2xl:mr-10 lg:mt-0  2xl:mt-0  font-Lato">
         <p className="inline-block w-48 lg:w-60 xl:w-72 2xl:w-96   mt-10 md:mt-0 lg:mt-0 xl:mt-0 2xl:mt-0  text-lg sm:text-lg md:text-sm lg:text-xl xl:text-2xl 2xl:text-3xl  font-light text-white text-center md:text-left leading-5">
           Hey there! Thank you for dropping by, heres a little bit about me.. I
           have a{" "}
