@@ -12,7 +12,7 @@ export default function HeaderTitle() {
     <div>
       <div
         id="Home"
-        className="flex flex-col justify-center items-center font-Lato gap-y-1 lg:gap-y-2 2xl:gap-y-3 mt-10 sm:mt-16 md:mt-20 2xl:mt-24 "
+        className="flex flex-col justify-center items-center font-Lato gap-y-1 lg:gap-y-2 2xl:gap-y-3 mt-10 sm:mt-14 md:mt-14 xl:mt-16 2xl:mt-28 "
       >
         <motion.h1
           animate={{
@@ -28,7 +28,7 @@ export default function HeaderTitle() {
             duration: 1,
             type: "spring",
           }}
-          className="text-[#66FCF1] text-2xl sm:text-3xl md:text-4xl lg:text-5xl 2xl:text-6xl "
+          className="text-[#66FCF1] text-2xl sm:text-3xl md:text-4xl lg:text-4xl 2xl:text-6xl "
         >
           Prabhu Vardhan Pilli
         </motion.h1>
