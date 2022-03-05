@@ -34,7 +34,7 @@ export default function AboutMeDescription() {
     >
       <ImagePage />
       <div className="flex flex-col justify-center items-center md:flex-col  md:justify-center md:items-start lg:p-5 2xl:p-10 2xl:mr-10  lg:mt-10 2xl:mt-0  font-Lato">
-        <p className="inline-block w-48 lg:w-60 xl:w-72 2xl:w-96   mt-10 md:mt-0   text-lg sm:text-lg md:text-sm lg:text-xl xl:text-3xl xl:font-thin 2xl:text-3xl  font-light text-white text-center md:text-left leading-5 tracking-widest">
+        <p className="inline-block w-48 lg:w-60 xl:w-72 2xl:w-96   mt-10 md:mt-0   text-lg sm:text-lg md:text-sm lg:text-xl xl:text-3xl xl:font-thin 2xl:text-3xl  font-light text-white text-center md:text-left leading-5">
           Hey there! Thank you for dropping by, heres a little bit about me.. I
           have a{" "}
           <strong className="text-lg sm:text-lg md:text-sm lg:text-xl xl:font-thin 2xl:text-3xl font-normal text-[#66FCF1]">
