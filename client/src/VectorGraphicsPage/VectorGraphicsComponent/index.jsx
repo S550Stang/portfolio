@@ -40,8 +40,8 @@ export default function VectorGraphics() {
               y2="1"
               gradientUnits="objectBoundingBox"
             >
-              <stop offset="0" stopColor="#25af9a" />
-              <stop offset="1" stopColor="#2d4b9a" />
+              <stop offset="0" stopColor="#bf9f37" />
+              <stop offset="1" stopColor="#bf9f37" />
             </linearGradient>
           </defs>
           <g id="Group_57" data-name="Group 57" transform="translate(45)">
@@ -70,7 +70,7 @@ export default function VectorGraphics() {
               id="Path_6"
               data-name="Path 6"
               transform="translate(-19 31)"
-              fill="#04060f"
+              fill="#2b292a"
             >
               <path
                 d="M150,300A150,150,0,1,1,300,150,150,150,0,0,1,150,300Z"
@@ -147,7 +147,7 @@ export default function VectorGraphics() {
             id="Path_6"
             data-name="Path 6"
             transform="translate(25 19)"
-            fill="#04060f"
+            fill="#2b292a"
           >
             <path
               d="M150,0A150,150,0,1,1,0,150,150,150,0,0,1,150,0Z"

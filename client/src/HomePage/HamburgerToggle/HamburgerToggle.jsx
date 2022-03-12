@@ -15,9 +15,9 @@ export default function HamburgerToggle() {
         duration: 1,
         type: "spring",
       }}
-      className="fixed top-0 -right-1 z-50 w-40 h-full flex  justify-center items-center bg-gradient-to-tr from-[#04060f]  to-transparent  backdrop-blur-md shadow-xl rounded-xl "
+      className="fixed top-0 -right-1 z-50 w-40 h-full flex  justify-center items-center bg-gradient-to-br from-[#22202a]  to-transparent bg-opacity-40  backdrop-blur-md shadow-xl rounded-xl "
     >
-      <ul className="flex flex-col justify-between items-center font-Lato text-md font-normal text-[#25AF9A]  gap-6 mt-44">
+      <ul className="flex flex-col justify-between items-center font-Lato text-md font-normal text-[#efd267]  gap-6 mt-44">
         <li>
           <a
             href="#AboutMe"

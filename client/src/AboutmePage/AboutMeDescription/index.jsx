@@ -7,13 +7,13 @@ export default function AboutMeDescription() {
       <ImagePage />
       <div className="flex flex-col justify-center items-center md:flex-col  md:justify-center md:items-start lg:p-5 2xl:p-10 2xl:mr-10 lg:mt-0  2xl:mt-0  font-Lato">
         <p className="inline-block w-48 lg:w-60 xl:w-72 2xl:w-96   mt-10 md:mt-0 lg:mt-0 xl:mt-0 2xl:mt-0  text-lg sm:text-lg md:text-sm lg:text-xl xl:text-2xl 2xl:text-3xl  font-light text-white text-center md:text-left leading-5">
-          Hey there! Thank you for dropping by, heres a little bit about me.. I
+          Hey there! Thank you for dropping by, here's a little bit about me, I
           have a{" "}
-          <strong className="text-lg sm:text-lg md:text-sm lg:text-xl xl:font-normal xl:text-2xl 2xl:text-3xl font-normal 2xl:font-normal text-[#66FCF1]">
+          <strong className="text-lg sm:text-lg md:text-sm lg:text-xl xl:font-normal xl:text-2xl 2xl:text-2xl font-normal 2xl:font-normal text-[#bf9f37]">
             Bachelors Degree
           </strong>{" "}
           in computer science and a{" "}
-          <strong className="text-lg sm:text-lg md:text-sm lg:text-xl xl:font-normal  2xl:text-3xl font-normal 2xl:font-normal text-[#66FCF1]">
+          <strong className="text-lg sm:text-lg md:text-sm lg:text-xl xl:font-normal  2xl:text-2xl font-normal 2xl:font-normal text-[#bf9f37]">
             Post Graduate Diploma
           </strong>{" "}
           in global business. I am a quick learner, I love to fail just so i
@@ -21,10 +21,10 @@ export default function AboutMeDescription() {
         </p>
         {/* Lets Talk Button Under About Me Description */}
         <button
-          className="inline-block hover:bg-gradient-to-r hover:from-[#25AF9A]   hover:to-[#2D4B9A] hover:bg-opacity-4 hover:backdrop-blur-lg hover:bg-[#25AF9A]
-            text-[#66FCF1]  border border-[#66FCF1]  px-1 w-24 mt-10 mb-10 md:mb-0 md:mt-5 sm:w-28 rounded-full font-light text-lg md:text-sm lg:text-xl xl:text-2xl xl:w-32"
+          className="inline-block     hover:bg-opacity-4 hover:bg-gradient-to-tr hover:from-[#bf9f37]  hover:to-[#2b292a] hover:bg-opacity-4 hover:backdrop-blur-lg text-[#2b292a]  
+              border border-[#bf9f37]  px-1 w-24 mt-10 mb-10 md:mb-0 md:mt-5 sm:w-28 rounded-sm font-light text-lg md:text-sm lg:text-xl xl:text-2xl xl:w-32"
         >
-          <a href="#contact" className="text-[#66FCF1] hover:text-black ">
+          <a href="#contact" className="text-[#bf9f37] hover:text-white  ">
             Lets Talk
           </a>
         </button>

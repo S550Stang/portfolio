@@ -28,7 +28,7 @@ export default function HeaderTitle() {
             duration: 1,
             type: "spring",
           }}
-          className="text-[#66FCF1] text-2xl sm:text-3xl md:text-4xl lg:text-4xl 2xl:text-6xl "
+          className="text-[#f7f7f7] text-2xl sm:text-3xl md:text-4xl lg:text-4xl 2xl:text-6xl "
         >
           Prabhu Vardhan Pilli
         </motion.h1>
@@ -67,8 +67,8 @@ export default function HeaderTitle() {
               stiffness: 100,
               damping: 20,
             }}
-            className="inline-block bg-[#04060F] rounded-full font-light border
-            w-28 sm:w-32 2xl:w-40 mr-2 hover:bg-gradient-to-r hover:from-[#25AF9A] hover:to-[#2D4B9A] hover:bg-opacity-4 hover:backdrop-blur-lg hover:bg-[#25AF9A] text-[#66FCF1] hover:text-black border-[#66FCF1] "
+            className="inline-block bg-[#bf9f37] rounded-sm font-light border
+            w-28 sm:w-32 2xl:w-40 mr-2 hover:bg-gradient-to-br hover:from-[#bf9f37] hover:via-[#2b292a] hover:to-[#f39881] hover:bg-opacity-4 hover:backdrop-blur-lg text-[#2b292a] hover:text-white border-none "
           >
             <a
               href={CV}
@@ -94,9 +94,8 @@ export default function HeaderTitle() {
               stiffness: 100,
               damping: 20,
             }}
-            className="inline-block bg-[#04060F]  rounded-full font-light border
-             w-28 sm:w-32 2xl:w-40 text-[#66FCF1] hover:bg-gradient-to-r hover:from-[#25AF9A] hover:to-[#2D4B9A] hover:bg-opacity-4 hover:backdrop-blur-lg hover:bg-[#25AF9A]
-             hover:text-black  border-[#66FCF1] "
+            className="inline-block bg-[#bf9f37]  rounded-sm font-light border
+             w-28 sm:w-32 2xl:w-40   hover:bg-gradient-to-tr hover:from-[#bf9f37] hover:via-[#2b292a] hover:to-[#f39881] hover:bg-opacity-4 hover:backdrop-blur-lg text-[#2b292a] hover:text-white border-none  "
           >
             <a
               href="#contact"
