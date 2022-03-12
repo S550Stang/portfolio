@@ -7,8 +7,10 @@ export default function SkillsPage() {
   return (
     <div>
       <SkillsHeaderTitleComponent />
-      <FrontEndSkillComponent />
-      <BackEndSkillComponent />
+      <div className="lg:grid lg:grid-cols-2 ">
+        <FrontEndSkillComponent />
+        <BackEndSkillComponent />
+      </div>
     </div>
   );
 }

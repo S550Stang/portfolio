@@ -5,7 +5,7 @@ import CertificationsComponent from "./CertificationsComponent";
 
 export default function ExperiencePage() {
   return (
-    <div>
+    <div className="lg:grid lg:grid-cols-2 mt-10 ">
       <ExperienceComponent />
       <ProjectsComponent />
       <CertificationsComponent />
