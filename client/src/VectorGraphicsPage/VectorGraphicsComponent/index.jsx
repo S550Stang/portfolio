@@ -32,18 +32,6 @@ export default function VectorGraphics() {
         "
       >
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 351 350">
-          <defs>
-            <linearGradient
-              id="linear-gradient"
-              x1="0.5"
-              x2="0.5"
-              y2="1"
-              gradientUnits="objectBoundingBox"
-            >
-              <stop offset="0" stopColor="#bf9f37" />
-              <stop offset="1" stopColor="#bf9f37" />
-            </linearGradient>
-          </defs>
           <g id="Group_57" data-name="Group 57" transform="translate(45)">
             <ellipse
               id="Ellipse_1"
@@ -53,15 +41,15 @@ export default function VectorGraphics() {
               rx="175.5"
               ry="175"
               transform="translate(-45)"
-              fill="url(#linear-gradient)"
+              fill="#86c232"
             />
             <g
               id="Rectangle_1"
               data-name="Rectangle 1"
               transform="translate(-45)"
+              fill="#86c232"
               stroke="rgba(34,38,41,0)"
               strokeWidth="1"
-              fill="url(#linear-gradient)"
             >
               <rect width="281" height="277" stroke="none" />
               <rect x="0.5" y="0.5" width="280" height="276" fill="none" />
@@ -70,7 +58,7 @@ export default function VectorGraphics() {
               id="Path_6"
               data-name="Path 6"
               transform="translate(-19 31)"
-              fill="#2b292a"
+              fill="#222629"
             >
               <path
                 d="M150,300A150,150,0,1,1,300,150,150,150,0,0,1,150,300Z"
@@ -106,23 +94,11 @@ export default function VectorGraphics() {
         sm:w-32 md:w-36 lg:w-40 xl:w-40 2xl:w-48"
       >
         <svg
-          id="Group_58"
-          data-name="Group 58"
+          id="Group_65"
+          data-name="Group 65"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 351 350"
         >
-          <defs>
-            <linearGradient
-              id="linear-gradient"
-              x1="0.5"
-              y1="1"
-              x2="0.5"
-              gradientUnits="objectBoundingBox"
-            >
-              <stop offset="0" stopColor="#25af9a" />
-              <stop offset="1" stopColor="#2d4b9a" />
-            </linearGradient>
-          </defs>
           <ellipse
             id="Ellipse_1"
             data-name="Ellipse 1"
@@ -130,15 +106,15 @@ export default function VectorGraphics() {
             cy="175"
             rx="175.5"
             ry="175"
-            fill="url(#linear-gradient)"
+            fill="#86c232"
           />
           <g
             id="Rectangle_1"
             data-name="Rectangle 1"
             transform="translate(70 73)"
+            fill="#86c232"
             stroke="rgba(34,38,41,0)"
             strokeWidth="1"
-            fill="url(#linear-gradient)"
           >
             <rect width="281" height="277" stroke="none" />
             <rect x="0.5" y="0.5" width="280" height="276" fill="none" />
@@ -147,7 +123,7 @@ export default function VectorGraphics() {
             id="Path_6"
             data-name="Path 6"
             transform="translate(25 19)"
-            fill="#2b292a"
+            fill="#222629"
           >
             <path
               d="M150,0A150,150,0,1,1,0,150,150,150,0,0,1,150,0Z"

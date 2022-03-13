@@ -23,9 +23,9 @@ export default function SoundBarComponent() {
       }}
     >
       {click ? (
-        <AiFillPauseCircle className="text-white text-xl md:text-2xl cursor-pointer hover:text-[#bf9f37]" />
+        <AiFillPauseCircle className="text-white text-xl md:text-2xl cursor-pointer hover:text-[#86C232]" />
       ) : (
-        <AiFillPlayCircle className="text-white text-xl md:text-2xl cursor-pointer hover:text-[#bf9f37] " />
+        <AiFillPlayCircle className="text-white text-xl md:text-2xl cursor-pointer hover:text-[#86C232] " />
       )}
 
       <audio src={Stranger} ref={ref} loop />

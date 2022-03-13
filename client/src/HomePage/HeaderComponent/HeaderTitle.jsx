@@ -28,7 +28,7 @@ export default function HeaderTitle() {
             duration: 1,
             type: "spring",
           }}
-          className="text-[#f7f7f7] text-2xl sm:text-3xl md:text-4xl lg:text-4xl 2xl:text-6xl "
+          className="headerTitle text-2xl sm:text-3xl md:text-4xl lg:text-4xl xl:text-5xl "
         >
           Prabhu Vardhan Pilli
         </motion.h1>
@@ -46,7 +46,7 @@ export default function HeaderTitle() {
             duration: 1,
             type: "spring",
           }}
-          className="text-white font-light text-md sm:text-lg md:text-xl lg:text-2xl 2xl:text-3xl"
+          className="text-white font-light text-md sm:text-lg md:text-xl lg:text-2xl xl:text-3xl"
         >
           FullStack Developer
         </motion.h4>
@@ -67,13 +67,13 @@ export default function HeaderTitle() {
               stiffness: 100,
               damping: 20,
             }}
-            className="inline-block bg-[#bf9f37] rounded-sm font-light border
-            w-28 sm:w-32 2xl:w-40 mr-2 hover:bg-gradient-to-br hover:from-[#bf9f37] hover:via-[#2b292a] hover:to-[#f39881] hover:bg-opacity-4 hover:backdrop-blur-lg text-[#2b292a] hover:text-white border-none "
+            className="inline-block btn-bg hover:bg-[#222629] rounded-full font-light hover:font-normal hover:border-[#86C232] hover:border
+            w-28 sm:w-32 xl:w-40 mr-2 text-[#2b292a] hover:text-[#86C232]   "
           >
             <a
               href={CV}
               download
-              className="flex justify-evenly items-center text-lg sm:text-xl p-1"
+              className="flex justify-evenly items-center text-lg sm:text-lg p-1"
             >
               Resume
             </a>
@@ -94,12 +94,12 @@ export default function HeaderTitle() {
               stiffness: 100,
               damping: 20,
             }}
-            className="inline-block bg-[#bf9f37]  rounded-sm font-light border
-             w-28 sm:w-32 2xl:w-40   hover:bg-gradient-to-tr hover:from-[#bf9f37] hover:via-[#2b292a] hover:to-[#f39881] hover:bg-opacity-4 hover:backdrop-blur-lg text-[#2b292a] hover:text-white border-none  "
+            className="inline-block btn-bg hover:bg-[#222629] rounded-full font-light hover:font-normal hover:border-[#86C232] hover:border
+             w-28 sm:w-32 xl:w-40 text-[#2b292a] hover:text-[#86C232]"
           >
             <a
               href="#contact"
-              className="flex justify-evenly items-center p-1 text-lg sm:text-xl "
+              className="flex justify-evenly items-center p-1 text-lg sm:text-lg "
             >
               Lets Talk
             </a>

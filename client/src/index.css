@@ -7,5 +7,20 @@ h1,
 h4 {
   margin: 0;
   padding: 0;
-  background-color: #2b292a;
+  background-color: #222629;
+}
+
+.headerTitle {
+  @apply text-[#86C232];
+}
+.btn-bg {
+  @apply bg-[#86C232];
+}
+
+.vector-bg {
+  @apply bg-[#86C232];
+}
+
+.canvas-bg {
+  @apply bg-[#222629];
 }

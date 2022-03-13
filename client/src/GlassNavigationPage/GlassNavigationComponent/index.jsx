@@ -22,7 +22,7 @@ export default function GlassNavigationComponent() {
         bounce: 0.3,
       }}
       className="flex justify-evenly items-center sm:fixed sm:bottom-2 sm:left-0 sm:right-0
-      sm:mx-auto w-1/2 h-14 sm:z-50 sm:rounded-sm sm:bg-gradient-to-br sm:from-[#bf9f37] sm:to-transparent sm:bg-opacity-40 sm:backdrop-blur-sm"
+      sm:mx-auto w-96 h-14 sm:z-50 sm:rounded-full sm:bg-gradient-to-br sm:from-[#86C232] sm:to-transparent sm:bg-opacity-40 sm:backdrop-blur-sm"
     >
       <a href="#Home">
         <AiFillHome
