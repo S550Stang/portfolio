@@ -44,14 +44,18 @@ export default function GlassNavigationComponent() {
           sm:text-sm md:text-md lg:text-lg xl:text-lg 2xl:text-2xl"
         />
       </a>
-      <GiHeartBattery
-        className="hover:cursor-pointer invisible sm:visible sm:hover:text-white
+      <a href="#Projects">
+        <GiHeartBattery
+          className="hover:cursor-pointer invisible sm:visible sm:hover:text-white
         sm:text-sm md:text-md lg:text-lg xl:text-lg 2xl:text-2xl"
-      />
-      <RiMessage2Fill
-        className="hover:cursor-pointer invisible sm:visible sm:hover:text-white
+        />
+      </a>
+      <a href="#Contact">
+        <RiMessage2Fill
+          className="hover:cursor-pointer invisible sm:visible sm:hover:text-white
         sm:text-sm md:text-md lg:text-lg xl:text-lg 2xl:text-2xl"
-      />
+        />
+      </a>
     </motion.div>
   );
 }

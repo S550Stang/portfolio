@@ -44,14 +44,6 @@ export default function HamburgerToggle() {
         </li>
         <li>
           <a
-            href="#Portfolio"
-            className="cursor-pointer hover:underline hover:text-white"
-          >
-            Portfolio
-          </a>
-        </li>
-        <li>
-          <a
             href="#Contact"
             className="cursor-pointer hover:underline hover:text-white"
           >

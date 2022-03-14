@@ -4,6 +4,7 @@ import AboutPage from "./AboutmePage";
 import ExperiencePage from "./ExperiencePage";
 import SkillsPage from "./SkillsPage";
 import VectorGraphicsPage from "./VectorGraphicsPage";
+import ProjectsPage from "./ProjectPage";
 
 export default function App() {
   return (
@@ -13,6 +14,7 @@ export default function App() {
       <AboutPage />
       <ExperiencePage />
       <SkillsPage />
+      <ProjectsPage />
     </>
   );
 }
