@@ -11,6 +11,7 @@ export default function WhatsappComponent() {
         <a
           href="https://api.whatsapp.com/send?phone=+16475107299"
           target="_blank"
+          rel="noreferrer"
           className="text-sm underline cursor-pointer"
         >
           Send a message

@@ -11,6 +11,7 @@ export default function EmailComponent() {
         <a
           href="mailto:prabhuvardhanrao94@gmail.com"
           target="_blank"
+          rel="noreferrer"
           className="text-sm underline cursor-pointer "
         >
           Send a message

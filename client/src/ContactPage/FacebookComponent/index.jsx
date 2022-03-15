@@ -11,6 +11,7 @@ export default function FacebookComponent() {
         <a
           href="https://m.me/P.PrabhuVardhanRao"
           target="_blank"
+          rel="noreferrer"
           className="text-sm underline cursor-pointer "
         >
           Send a message

@@ -1,9 +1,34 @@
-import React from "react";
+import React, { useRef } from "react";
+import emailjs from "emailjs-com";
 
 export default function ContactFormComponent() {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_pn9hp4l",
+        "template_sttqmdh",
+        form.current,
+        "m4WmIRUgvIlzN9Flo"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+    e.target.reset();
+  };
   return (
     <div className="mt-10 lg:mt-0">
       <form
+        ref={form}
+        onSubmit={sendEmail}
         className="space-y-1 lg:space-y-5 flex flex-col justify-center items-center lg:ml-10 xl:ml-44 2xl:ml-72 "
         action=""
       >
