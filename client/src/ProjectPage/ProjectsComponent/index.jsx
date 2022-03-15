@@ -8,7 +8,7 @@ import TwitterCloneComponent from "../TwitterCloneComponent";
 
 export default function ProjectsComponent() {
   return (
-    <div className="lg:grid lg:grid-cols-2 xl:grid-cols-3 ">
+    <div className="lg:grid lg:grid-cols-2 xl:grid-cols-3 xl:px-10 ">
       <PasswordKeeprComponent />
       <RubyOnRailsComponent />
       <MemoirsComponent />
