@@ -3,8 +3,8 @@ import image from "../../assets/unsplash.jpg";
 
 export default function RubyOnRailsComponent() {
   return (
-    <div className="w-52 h-72 mt-10 btn-bg hover:bg-[#222629] hover:border hover:border-[#86C232] rounded-3xl mx-auto font-Lato ">
-      <div className="flex flex-col justify-center items-center hover:text-white gap-1">
+    <div className="w-52 h-72 mt-10 btn-bg hover:bg-[#222629] hover:text-white hover:border hover:border-[#86C232] rounded-3xl mx-auto font-Lato ">
+      <div className="flex flex-col justify-center items-center  gap-1">
         <img
           src={image}
           alt="passwordKeepr"

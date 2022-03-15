@@ -5,6 +5,7 @@ import ExperiencePage from "./ExperiencePage";
 import SkillsPage from "./SkillsPage";
 import VectorGraphicsPage from "./VectorGraphicsPage";
 import ProjectsPage from "./ProjectPage";
+import ContactPage from "./ContactPage";
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
       <ExperiencePage />
       <SkillsPage />
       <ProjectsPage />
+      <ContactPage />
     </>
   );
 }
